@@ -5,5 +5,5 @@
   "main": "index.js",
   "repository": "https://github.com/chriscalo/gae-node-starter.git",
   "author": "Chris Calo <chris.calo@gmail.com>",
-  "license": "MIT"
+  "license": "The Unlicense"
 }
