@@ -5,5 +5,22 @@
   "main": "index.js",
   "repository": "https://github.com/chriscalo/gae-node-starter.git",
   "author": "Chris Calo <chris.calo@gmail.com>",
-  "license": "The Unlicense"
+  "license": "The Unlicense",
+  "scripts": {
+    "dev": "dotenv -e .env.dev -- nodemon -r esm app.js",
+    "prod": "dotenv -e .env.prod -- node -r esm app.js",
+    "start": "run-p prod",
+    "deploy": "gcloud app deploy app.yaml --no-promote --project=<project-id>",
+    "deploy:quiet": "gcloud app deploy app.yaml --quiet --no-promote --project=<project-id>"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^2.0.1",
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-start": "^0.1.5",
+    "npm-run-all": "^4.1.5"
+  }
 }

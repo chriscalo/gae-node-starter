@@ -1,0 +1,3 @@
+# Google App Engine will automatically run `npm start` when deployed
+# No need to specify handlers here
+runtime: nodejs10
