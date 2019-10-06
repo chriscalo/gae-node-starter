@@ -2114,6 +2114,11 @@ supports-color@^5.2.0, supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
+tagged-template-noop@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tagged-template-noop/-/tagged-template-noop-2.1.0.tgz#3501d67fd75612ab40e6040056ea881d1161c4f5"
+  integrity sha512-VOPA7ZucOLvew9xq+AwABXil7AHQZa3G7T3QOQoUveNIl3EwNsMN79JHn8v7zgpM1Pd8R36MrntUvaWqLqjg1w==
+
 tar@^4:
   version "4.4.13"
   resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
