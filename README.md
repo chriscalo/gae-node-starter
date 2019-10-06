@@ -28,7 +28,8 @@ npm run start
 yarn run start
 ```
 
-Then to deploy you'll need the `gcloud` command-line utility. Go to cloud.google.com/sdk/install to install it.
+Then to deploy you'll need the `gcloud` command-line utility. Go to [cloud.google.com/sdk/install][gcloud-install] to
+install it.
 
 Next, you'll need a Project ID. If you don't already have a project, create one via the [GCP Console][gcp-console].
 
