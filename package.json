@@ -1,0 +1,9 @@
+{
+  "name": "gae-node-starter",
+  "version": "0.1.0",
+  "description": "Minimal boilerplate for a Node.js app running on AppEngine.",
+  "main": "index.js",
+  "repository": "https://github.com/chriscalo/gae-node-starter.git",
+  "author": "Chris Calo <chris.calo@gmail.com>",
+  "license": "MIT"
+}
