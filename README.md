@@ -19,7 +19,16 @@ yarn run dev
 
 ## Deployment
 
-To deploy, you'll need the `gcloud` command-line utility. Go to cloud.google.com/sdk/install to install it.
+After deploying, Google App Engine executes `npm run start`, so you need to be sure the `start` script in
+[package.json](package.json) does what you want:
+
+``` sh
+npm run start
+```
+
+`yarn run start` should also work fine.
+
+Then to deploy you'll need the `gcloud` command-line utility. Go to cloud.google.com/sdk/install to install it.
 
 Next, you'll need a Project ID. If you don't already have a project, create one via the [GCP Console][gcp-console].
 
